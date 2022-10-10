@@ -36,21 +36,4 @@ public class Deck{
             this.generateDeck(); 
             this.shuffleDeck();
         } 
-        /* 
-        public static void main (String [] args) { 
-            Deck deck1 = new Deck();   
-            deck1.displayDeck(); 
-            System.out.println("Deck is being shuffled"); 
-            deck1.shuffleDeck(); 
-            deck1.displayDeck();  
-            Card c1 = new Card();  
-            System.out.println("I am removing the top card"); 
-            c1 = deck1.removeCard(); 
-            c1.displayCard();   
-            System.out.println("Here is the new deck"); 
-            deck1.displayDeck();  
-            deck1.resetDeck(); 
-            deck1.displayDeck();
-        } 
-        */
 }

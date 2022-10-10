@@ -22,15 +22,7 @@ public class Card {
     } 
 
     public void displayCard() { 
-        System.out.println(this.suit +"-" + this.rank+ "-"+ this.value);
+        System.out.print(this.suit +"-" + this.rank+ "-"+ this.value+"     | ");
     } 
     
-
-/* 
-public static void main(String [] args) { 
-    Card A = new Card("Hearts","9", 9); 
-    A.displayCard(); 
-    System.out.println(A.getValue()); 
-}  
-*/
 }
